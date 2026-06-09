@@ -1,0 +1,7 @@
+---
+title: "pagina-personal"
+---
+
+Esto es un sitio Quarto.
+
+Para aprender más sobre sitios web de Quarto visita <https://quarto.org/docs/websites>.

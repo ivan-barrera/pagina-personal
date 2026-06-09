@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Sobre",
+    "section": "",
+    "text": "Sobre este sitio"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "pagina-personal",
+    "section": "",
+    "text": "Esto es un sitio Quarto.\nPara aprender más sobre sitios web de Quarto visita https://quarto.org/docs/websites."
+  }
+]

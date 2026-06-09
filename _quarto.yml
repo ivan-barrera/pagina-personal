@@ -1,0 +1,32 @@
+project:
+  type: website
+
+website:
+  title: "Iván Barrera"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+babelquarto:
+  languagecodes:
+  - name: en
+    text: "English"
+  - name: es
+    text: "Español"
+  mainlanguage: 'es'
+  languages: ['en']
+title-en: Test website
+description-en: My test website
+author-en: Ivan Barrera
+lang: es
+
