@@ -1,0 +1,124 @@
+/* ── Google Fonts ── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+/* ── Global ── */
+body { font-size: 16px; color: #2c2c2a; }
+a { color: #185FA5; }
+h1, h2, h3, h4 { font-weight: 500; }
+
+/* ── Navbar ── */
+.navbar { border-bottom: 1px solid #e9ecef; box-shadow: none; }
+.navbar-brand { font-weight: 600; font-size: 1.1rem; color: #185FA5 !important; }
+.nav-link { font-size: 0.92rem; }
+.nav-link:hover { border-bottom: 2px solid #185FA5 !important; color: #185FA5 !important; }
+
+/* ── Hero ── */
+.hero-section {
+  padding: 4rem 0 3rem;
+  border-bottom: 1px solid #e9ecef;
+}
+.avatar-circle {
+  width: 90px; height: 90px;
+  border-radius: 50%;
+  background: #185FA5;
+  color: #E6F1FB;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.8rem; font-weight: 500;
+  margin-bottom: 1.2rem;
+}
+.hero-name { font-size: 2rem; font-weight: 600; margin-bottom: 0.25rem; }
+.hero-title { font-size: 1rem; color: #185FA5; font-weight: 500; margin-bottom: 1rem; }
+.hero-summary { font-size: 0.97rem; color: #5f5e5a; line-height: 1.5; max-width: 680px; margin-bottom: 1.5rem; }
+.contact-pills { display: flex; flex-wrap: wrap; gap: 8px; }
+.contact-pill {
+  font-size: 0.82rem; padding: 4px 12px;
+  border: 1px solid #d3d1c7; border-radius: 20px;
+  color: #5f5e5a; background: #fff; text-decoration: none;
+}
+.contact-pill:hover { border-color: #185FA5; color: #185FA5; }
+
+/* ── Metric cards ── */
+.metric-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2.5rem 0; }
+.metric-card {
+  background: #f8f9fa; border-radius: 10px;
+  padding: 1.2rem 1rem; text-align: center;
+}
+.metric-num { font-size: 2rem; font-weight: 600; color: #185FA5; }
+.metric-lbl { font-size: 0.8rem; color: #6c757d; margin-top: 4px; }
+
+/* ── Section headings ── */
+.section-label {
+  font-size: 0.7rem; font-weight: 600; letter-spacing: 0.1em;
+  text-transform: uppercase; color: #888780;
+  border-bottom: 1px solid #e9ecef; padding-bottom: 6px;
+  margin-bottom: 1.2rem; margin-top: 2rem;
+}
+
+/* ── Timeline (experiencia) ── */
+.timeline { position: relative; padding-left: 1.5rem; }
+.timeline::before {
+  content: ''; position: absolute; left: 0; top: 6px; bottom: 0;
+  width: 2px; background: #e9ecef;
+}
+.timeline-item { position: relative; margin-bottom: 2rem; }
+.timeline-item::before {
+  content: ''; position: absolute; left: -1.56rem; top: 6px;
+  width: 10px; height: 10px; border-radius: 50%;
+  background: #185FA5; border: 2px solid #fff; box-shadow: 0 0 0 2px #185FA5;
+}
+.tl-role { font-size: 1rem; font-weight: 600; margin-bottom: 2px; }
+.tl-org { font-size: 0.9rem; color: #185FA5; margin-bottom: 4px; }
+.tl-period { font-size: 0.8rem; color: #888780; margin-bottom: 8px; }
+.tl-bullets { padding-left: 1.1rem; margin: 0; }
+.tl-bullets li { font-size: 0.9rem; color: #5f5e5a; line-height: 1.65; margin-bottom: 3px; }
+
+/* ── Project cards ── */
+.project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; margin-top: 1.5rem; }
+.project-card {
+  background: #fff; border: 1px solid #e9ecef; border-radius: 10px;
+  padding: 1.2rem 1.25rem; transition: box-shadow 0.15s;
+}
+.project-card:hover { box-shadow: 0 2px 12px rgba(24,95,165,0.1); border-color: #B5D4F4; }
+.project-tag {
+  display: inline-block; font-size: 0.72rem; padding: 2px 8px;
+  background: #E6F1FB; color: #0C447C; border-radius: 20px;
+  margin-bottom: 8px;
+}
+.project-title { font-size: 0.95rem; font-weight: 600; margin-bottom: 4px; }
+.project-client { font-size: 0.82rem; color: #888780; margin-bottom: 8px; }
+.project-desc { font-size: 0.87rem; color: #5f5e5a; line-height: 1.6; }
+
+/* ── Skills tags ── */
+.tag-group { margin-bottom: 1.2rem; }
+.tag-group-label { font-size: 0.82rem; font-weight: 600; color: #5f5e5a; margin-bottom: 6px; }
+.tag-wrap { display: flex; flex-wrap: wrap; gap: 6px; }
+.tag {
+  font-size: 0.82rem; padding: 4px 12px;
+  background: #f1efe8; border-radius: 20px; color: #5f5e5a;
+}
+.tag-blue { background: #E6F1FB; color: #0C447C; }
+
+/* ── Publications ── */
+.pub-item {
+  padding: 0.8rem 0 0.8rem 1rem;
+  border-left: 3px solid #B5D4F4;
+  margin-bottom: 1rem;
+  font-size: 0.9rem; color: #5f5e5a; line-height: 1.65;
+}
+.pub-year { font-size: 0.78rem; color: #888780; display: block; margin-top: 3px; }
+
+/* ── Contact form ── */
+.contact-card {
+  max-width: 580px; margin: 0 auto;
+  background: #fff; border: 1px solid #e9ecef;
+  border-radius: 12px; padding: 2rem;
+}
+.form-label { font-size: 0.88rem; font-weight: 500; }
+.btn-primary { background: #185FA5; border-color: #185FA5; }
+.btn-primary:hover { background: #0C447C; border-color: #0C447C; }
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .metric-grid { grid-template-columns: 1fr 1fr; }
+  .hero-name { font-size: 1.5rem; }
+}
